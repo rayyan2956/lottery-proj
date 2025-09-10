@@ -108,10 +108,10 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0xd1bebd3a1bc25e9c07b268e5bc38883dfc55b2e793075a842b876a37b7a18f3a",
+			"keccak256": "0xd1b451199ad408ed04792564ab351ccbc623fecdb47e4b151b9a338a58d16a0d",
 			"urls": [
-				"bzz-raw://74a2b45eac0ffdea72d15f9d3c239328410d4346ad36d9a0f2aaa7824dc67b99",
-				"dweb:/ipfs/QmZ41QFRiR1oGdNLuPaC7aH643VuX9ABwXJWWiGWE5Jfxn"
+				"bzz-raw://b700648352f9b7b9a763f490c0a36ff3337aa14c88c51982a2fcaacfce244705",
+				"dweb:/ipfs/QmdH4LtRww31uAyXdXz9hSSoV2hu2r6WT3KhS37KoGPZKJ"
 			]
 		}
 	},

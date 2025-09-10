@@ -8,7 +8,6 @@ contract Lottery{
     }
 
     receive() external payable { 
-        require(msg.value>=1 ether);
         participants.push(payable(msg.sender));
     }
 
