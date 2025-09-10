@@ -71,14 +71,8 @@
 			{
 				"inputs": [],
 				"name": "selectWinner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -114,10 +108,10 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0x25de2543f09bc5768723c182b60ff7ae611052455776853d9f7290c6f2ea8357",
+			"keccak256": "0xd1bebd3a1bc25e9c07b268e5bc38883dfc55b2e793075a842b876a37b7a18f3a",
 			"urls": [
-				"bzz-raw://0d4c42e886cd34a8a0f4b53be9a7f555d351704275237c9296b2d4f9ec35a754",
-				"dweb:/ipfs/QmdfGTQk7tB4iNbqAiTfekJEFKnSd6XHUov3tqoHjHbu11"
+				"bzz-raw://74a2b45eac0ffdea72d15f9d3c239328410d4346ad36d9a0f2aaa7824dc67b99",
+				"dweb:/ipfs/QmZ41QFRiR1oGdNLuPaC7aH643VuX9ABwXJWWiGWE5Jfxn"
 			]
 		}
 	},

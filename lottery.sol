@@ -21,15 +21,22 @@ contract Lottery{
 
     }
 
-    function selectWinner() public view returns(address){
+    function selectWinner() public {
         require(msg.sender==manager);
         require(participants.length>=3);
 
         uint r = random();
         uint index = r%participants.length;
+        address payable winner = participants[index];
+        uint balance = getBalance();
 
-        address payable winner;
-        winner=participants[index];
-        return winner;
+        uint managerFee = balance / 10; // 10% commission
+        uint winnerPrize = balance - managerFee;
+
+        winner.transfer(winnerPrize);
+
+        payable(manager).transfer(managerFee);
+        participants= new address payable[](0);
+      
     }
 }
