@@ -56,6 +56,32 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "selectWinner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -88,10 +114,10 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0x2e91c3b27ed1d33725b77b99a21741de5ae48fbd1c3a0485da7eabc8bb6a5754",
+			"keccak256": "0x25de2543f09bc5768723c182b60ff7ae611052455776853d9f7290c6f2ea8357",
 			"urls": [
-				"bzz-raw://67695f1bf9e75aa80b845e29b6e5b1ebcbaf5b6877bd4aaf548351a67fd6ce04",
-				"dweb:/ipfs/QmU5doBckMxehakoo6j9vhVyYvGVLfvjCLy5CQJvFpQdXk"
+				"bzz-raw://0d4c42e886cd34a8a0f4b53be9a7f555d351704275237c9296b2d4f9ec35a754",
+				"dweb:/ipfs/QmdfGTQk7tB4iNbqAiTfekJEFKnSd6XHUov3tqoHjHbu11"
 			]
 		}
 	},
